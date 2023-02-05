@@ -18,7 +18,7 @@
 <body class="bg-neutral-100 text-slate-200">
 
 <!-- Top tab -->
-<div class="text-xl fixed flex text-center">
+<div class="text-xl fixed flex text-center hidden">
     <ul class="p-2 flex w-screen z-50 justify-around bg-black gap-4">
         <li class="flex gap-4">
             <svg class="mt-0.5 fill-slate-200" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -66,15 +66,20 @@
     </ul>
 </div>
 
+<div class="fixed flex text-center">
+    <ul class="p-2 flex w-screen z-50 justify-around bg-black gap-4">
+        <li class="flex gap-4">
+            <div><a class="text-4xl lg:text-xl" href="#contact">En recherche d'alternance</a></div>
+        </li>
+    </ul>
+</div>
+
 <div class="absolute bottom-0 right-0 p-5">
     <div class="flex justify-center flex-col gap-2">
-        <a class="mt-1 flex justify-center" href="https://github.com/ludovicspina"><img
+        <a class="mt-1 flex justify-center" href="https://github.com/ludovicspina"><img class="h-14"
                 src="https://img.shields.io/badge/GitHub-ludovicspina-333"
                 alt="GitHub - ludovicspina"></a>
-        <a class="mt-1 flex justify-center" href="http://fondationpxn.com"><img
-                src="https://img.shields.io/badge/Website-FondationPXN-c9c9c9"
-                alt="Website - FondationPXN"></a>
-        <a class="mt-1 flex justify-center mb-2" href="https://wakatime.com/@9cb45756-5907-4e13-97ff-1ac04bc1bd58"><img
+        <a class="mt-1 flex justify-center mb-2" href="https://wakatime.com/@9cb45756-5907-4e13-97ff-1ac04bc1bd58"><img class="h-14"
                 src="https://wakatime.com/badge/user/9cb45756-5907-4e13-97ff-1ac04bc1bd58.svg?style=default"
                 alt="Total time coded since Jan 6 2021"/></a>
     </div>
@@ -88,8 +93,8 @@
 
         <!-- Accueil -->
         <div id="accueil" class="h-screen bg-blue-100 flex flex-col justify-center items-center">
-            <div class="text-7xl font-bold">Spina Ludovic</div>
-            <div class="text-4xl mt-2">Développeur Full-Stack</div>
+            <div class="text-9xl lg:text-7xl font-bold">Spina Ludovic</div>
+            <div class="text-6xl lg:text-4xl mt-2">Développeur Full-Stack</div>
             <div class="flex gap-10 mt-10">
                 <a href="#apropos">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
@@ -103,17 +108,17 @@
         <div id="apropos" class="bg-blue-50 pl-20 py-14">
             <div>
 
-                <div class="border-l-4 border-blue-500 h-10 mb-8">
-                    <div class="text-4xl font-semibold ml-4">A propos</div>
+                <div class="border-l-4 border-blue-500 h-18 lg:h-10 mb-14">
+                    <div class="text-7xl lg:text-4xl font-semibold ml-4">A propos</div>
                 </div>
-                <div class="text-xl w-4/5">Développeur <u>full-stack</u>, je suis passionné par le développement depuis
+                <div class="text-4xl lg:text-xl w-4/5 mb-6">Développeur <u>full-stack</u>, je suis passionné par le développement depuis
                     de nombreuses
                     années.
                 </div>
-                <div class="text-xl w-4/5 mt-3">J'ai pu acquérir des connaissances dans de nombreux domaines au fil des
+                <div class="text-4xl lg:text-xl w-4/5 mb-6">J'ai pu acquérir des connaissances dans de nombreux domaines au fil des
                     années grâce à de nombreux projets personnels.
                 </div>
-                <div class="text-xl w-4/5">
+                <div class="text-4xl lg:text-xl w-4/5">
                     Que ce soit dans <u>le web, l'applicatif, en logique ou encore la gestion de projet</u>, je suis
                     curieux et créatif.
                 </div>
@@ -125,78 +130,78 @@
         <!-- Expérience -->
         <div id="experience" class="bg-blue-100 pl-20 text-xl py-14">
             <div>
-                <div class="border-l-4 border-blue-500 h-10 mb-8">
-                    <div class="text-4xl font-semibold ml-4">Expérience</div>
+                <div class="border-l-4 border-blue-500 h-18 lg:h-10 mb-8">
+                    <div class="text-7xl lg:text-4xl font-semibold ml-4">Expérience</div>
                 </div>
-                <div class="flex gap-10">
+                <div class="lg:flex gap-10">
                     <div>
-                        <div class="text-2xl font-semibold">Expérience Professionnelle</div>
+                        <div class="text-5xl lg:text-2xl font-semibold">Expérience Professionnelle</div>
                         <div class="border-l-4 border-blue-300 pl-4">
                             <div class="my-8">
-                                <div class="font-semibold"><u>SCABOIS</u> - alternance
+                                <div class="font-semibold text-3xl lg:text-xl"><u>SCABOIS</u> - alternance
                                 </div>
-                                <div class="mb-1">- Chargé du développement de l'intranet ainsi que du site vitrine.
+                                <div class="mb-1 text-3xl lg:text-xl">- Chargé du développement de l'intranet ainsi que du site vitrine.
                                 </div>
-                                <div class="mb-1">Choisey, 39</div>
-                                <label class="bg-blue-200 text-sm py-1 px-2 font-semibold">septembre 2022 >
+                                <div class="mb-1 text-3xl lg:text-xl">Choisey, 39</div>
+                                <label class="bg-blue-200 text-2xl lg:text-sm py-1 px-2 font-semibold">septembre 2022 >
                                     actuel</label>
                             </div>
                             <div class="my-8">
-                                <div class="font-semibold"><u>Communauté d'Agglomération de Vesoul</u> - alternance
+                                <div class="font-semibold text-3xl lg:text-xl"><u>Communauté d'Agglomération de Vesoul</u> - alternance
                                 </div>
-                                <div class="mb-1">- Chef de projet et chargé de développement d'un Intranet pour
+                                <div class="mb-1 text-3xl lg:text-xl">- Chef de projet et chargé de développement d'un Intranet pour
                                     l'agglomération.
                                 </div>
-                                <div class="mb-1">Vesoul, 70</div>
-                                <label class="bg-blue-200 text-sm py-1 px-2 font-semibold">septembre 2021 >
+                                <div class="mb-1 text-3xl lg:text-xl">Vesoul, 70</div>
+                                <label class="bg-blue-200 text-2xl lg:text-sm py-1 px-2 font-semibold">septembre 2021 >
                                     août 2022</label>
                             </div>
                             <div class="my-8">
-                                <div class="font-semibold w-3/4"><u>VITAVIE</u> - stage</div>
-                                <div class="mb-1">- Développement de composants web avec VueJS et TailwindCSS.</div>
-                                <div class="mb-1">Besançon, 25</div>
-                                <label class="bg-blue-200 text-sm py-1 px-2 font-semibold">fevr 2021 > avril
+                                <div class="font-semibold text-3xl lg:text-xl w-3/4"><u>VITAVIE</u> - stage</div>
+                                <div class="mb-1 text-3xl lg:text-xl">- Développement de composants web avec VueJS et TailwindCSS.</div>
+                                <div class="mb-1 text-3xl lg:text-xl">Besançon, 25</div>
+                                <label class="bg-blue-200 text-2xl lg:text-sm py-1 px-2 font-semibold">fevr 2021 > avril
                                     2021</label>
                             </div>
                             <div class="my-8">
-                                <div class="font-semibold"><u>SECOBAT</u> - stage</div>
-                                <div class="mb-1">- Développement d'un site vitrine pour
+                                <div class="font-semibold text-3xl lg:text-xl"><u>SECOBAT</u> - stage</div>
+                                <div class="mb-1 text-3xl lg:text-xl">- Développement d'un site vitrine pour
                                     l'entreprise.
                                 </div>
-                                <div class="mb-1">Besançon, 25</div>
-                                <label class="bg-blue-200 text-sm py-1 px-2 font-semibold">juin 2020</label>
+                                <div class="mb-1 text-3xl lg:text-xl">Besançon, 25</div>
+                                <label class="bg-blue-200 text-2xl lg:text-sm py-1 px-2 font-semibold">juin 2020</label>
                             </div>
                             <div class="my-8">
-                                <div class="font-semibold"><u>Platinium Informatique</u> - stage</div>
-                                <div class="mb-1">- Technicien informatique en maintenance et vente de hardwares et
+                                <div class="font-semibold text-3xl lg:text-xl"><u>Platinium Informatique</u> - stage</div>
+                                <div class="mb-1 text-3xl lg:text-xl">- Technicien informatique en maintenance et vente de hardwares et
                                     softwares.
                                 </div>
-                                <div class="mb-1">Dole, 39</div>
-                                <label class="bg-blue-200 text-sm py-1 px-2 font-semibold">nov 2016 & avr-mai
+                                <div class="mb-1 text-3xl lg:text-xl">Dole, 39</div>
+                                <label class="bg-blue-200 text-2xl lg:text-sm py-1 px-2 font-semibold">nov 2016 & avr-mai
                                     2017</label>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div class="text-2xl font-semibold">Etudes</div>
+                        <div class="text-5xl lg:text-2xl font-semibold">Etudes</div>
                         <div class="border-l-4 border-blue-300 pl-4">
                             <div class="my-8">
-                                <div class="font-semibold w-3/4"><u>LICENCE CAISI :</u> Concepteur en Architecture
+                                <div class="font-semibold text-3xl lg:text-xl lg:w-3/4"><u>LICENCE CAISI :</u> Concepteur en Architecture
                                     Informatique parcours Systèmes d’Information
                                 </div>
-                                <div class="mb-1">Lycée Pasteur Mont Roland - Dole, 39</div>
-                                <label class="bg-blue-200 text-sm py-1 px-2 font-semibold">sept 2021 > juillet
+                                <div class="mb-1 text-3xl lg:text-xl">Lycée Pasteur Mont Roland - Dole, 39</div>
+                                <label class="bg-blue-200 text-2xl lg:text-sm py-1 px-2 font-semibold">sept 2021 > juillet
                                     2023</label>
                             </div>
                             <div class="my-8">
-                                <div class="font-semibold"><u>BTS SIO :</u> Sercice Informatique aux Organisations</div>
-                                <div class="mb-1">Lycée Louis Pergaud - Besançon, 25</div>
-                                <label class="bg-blue-200 text-sm py-1 px-2 font-semibold">sept 2019 > juin 2021</label>
+                                <div class="font-semibold text-3xl lg:text-xl"><u>BTS SIO :</u> Sercice Informatique aux Organisations</div>
+                                <div class="mb-1 text-3xl lg:text-xl">Lycée Louis Pergaud - Besançon, 25</div>
+                                <label class="bg-blue-200 text-2xl lg:text-sm py-1 px-2 font-semibold">sept 2019 > juin 2021</label>
                             </div>
                             <div class="my-8">
-                                <div class="font-semibold"><u>BEP ET BACCALAURÉAT :</u> Systèmes et Numérique</div>
-                                <div class="mb-1">Lycée Pasteur Mont Roland - Dole, 39</div>
-                                <label class="bg-blue-200 text-sm py-1 px-2 font-semibold">sept 2016 > juin 2019</label>
+                                <div class="font-semibold text-3xl lg:text-xl"><u>BEP ET BACCALAURÉAT :</u> Systèmes et Numérique</div>
+                                <div class="mb-1 text-3xl lg:text-xl">Lycée Pasteur Mont Roland - Dole, 39</div>
+                                <label class="bg-blue-200 text-2xl lg:text-sm py-1 px-2 font-semibold">sept 2016 > juin 2019</label>
                             </div>
                         </div>
                     </div>
@@ -208,8 +213,8 @@
         <!-- Compétences -->
         <div id="competence" class="bg-blue-50 pl-20 py-14 bg-blue-50">
             <div>
-                <div class="border-l-4 border-blue-500 h-10 mb-8">
-                    <div class="text-4xl font-semibold ml-4">Compétences</div>
+                <div class="border-l-4 border-blue-500 h-18 lg:h-10 mb-8">
+                    <div class="text-7xl lg:text-4xl font-semibold ml-4">Compétences</div>
                 </div>
                 <div class="pr-20">
                     <!-- Swiper -->
@@ -353,8 +358,8 @@
 
         <!-- Portefolio -->
         <div id="portfolio" class="pl-20 py-14 bg-blue-100">
-            <div class="border-l-4 border-blue-500 h-10 mb-8">
-                <div class="text-4xl font-semibold ml-4">Portfolio</div>
+            <div class="border-l-4 border-blue-500 h-18 lg:h-10 mb-8">
+                <div class="text-7xl lg:text-4xl font-semibold ml-4">Portfolio</div>
             </div>
             <div>
                 <div class="container px-5 py-24 mx-auto">
@@ -369,10 +374,11 @@
                                     <h1 class="title-font text-lg font-medium text-gray-600 mb-3">Guilde Easis</h1>
                                     <p class="leading-relaxed mb-3">Site web dédié à une guilde dans un jeu vidéo. Il
                                         permet offre également un système d'hotel de vente pour les joueurs.</p>
+                                    <p class="leading-relaxed mb-3">Définitivement fermé.</p>
                                     <div class="flex items-center flex-wrap ">
-                                        <form method="get" action="https://guilde-easis.fr">
+                                        <form method="get" action="https://web.archive.org/web/20230201124956/https://guilde-easis.fr/">
                                             <button class="bg-gradient-to-r bg-neutral-200 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">
-                                                En savoir plus
+                                                Voir l'archive
                                             </button>
                                         </form>
                                     </div>
@@ -400,24 +406,19 @@
 
         <!-- Contact -->
         <div id="contact" class="pl-20 py-14 text-xl flex bg-blue-50 flex flex-col">
-            <div class="border-l-4 border-blue-500 h-10 mb-8">
-                <div class="text-4xl font-semibold ml-4">Contact</div>
+            <div class="border-l-4 border-blue-500 h-18 lg:h-10 mb-8">
+                <div class="text-7xl lg:text-4xl font-semibold ml-4">Contact</div>
             </div>
             <div class="text-center flex justify-around">
-                <div>
-                    <div><u>Professionnel & Personnel :</u></div>
-                    ludovic.spina@icloud.com
-                    <div class="pt-5xx²"><u>Commercial :</u></div>
-                    contact@fondationpxn.com
+                <div class="text-3xl lg:text-xl">
+                    <div class="text-4xl lg:text-xl"><u>Professionnel & Personnel :</u></div>
+                    ludovic.spina@proton.me
                 </div>
                 <div class="p-5">
                     <div class="flex justify-center flex-col gap-2">
                         <a class="mt-1 flex justify-center" href="https://github.com/ludovicspina"><img
                                 src="https://img.shields.io/badge/GitHub-ludovicspina-333"
                                 alt="GitHub - ludovicspina"></a>
-                        <a class="mt-1 flex justify-center" href="http://fondationpxn.com"><img
-                                src="https://img.shields.io/badge/Website-FondationPXN-c9c9c9"
-                                alt="Website - FondationPXN"></a>
                         <a class="mt-1 flex justify-center mb-2"
                            href="https://wakatime.com/@9cb45756-5907-4e13-97ff-1ac04bc1bd58"><img
                                 src="https://wakatime.com/badge/user/9cb45756-5907-4e13-97ff-1ac04bc1bd58.svg?style=default"
@@ -433,7 +434,7 @@
 </body>
 <script>
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 10,
+        slidesPerView: 6,
         spaceBetween: 10,
         autoplay: {
             delay: 3000,
